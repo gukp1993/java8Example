@@ -12,8 +12,8 @@ import java.util.function.Function;
 public class FunctionTest {
 
     public static void main(String[] args) {
-        List<Integer> l = map(Arrays.asList("lambdas", "in", "action"), s -> s.length());
-        System.out.println(l);
+        List<Integer> list = map(Arrays.asList("lambdas", "in", "action"), s -> s.length());
+        System.out.println(list);
     }
 
     public static <T, R> List<R> map(List<T> list, Function<T, R> f) {
