@@ -1,6 +1,7 @@
 package main.java.lambda;
 
-import main.java.lambda.domain.Apple;
+
+import main.java.domain.Apple;
 
 import java.util.ArrayList;
 import java.util.Arrays;

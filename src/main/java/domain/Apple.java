@@ -1,4 +1,4 @@
-package main.java.lambda.domain;
+package main.java.domain;
 
 /**
  * @author gukepeng
